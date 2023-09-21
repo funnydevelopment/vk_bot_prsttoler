@@ -1,6 +1,11 @@
-def test_func():
-    print("Here is VK bot!")
+from core.config import get_dotenv
+from core.views import create_post
+
+
+def run_app():
+    get_dotenv()
+    create_post()
 
 
 if __name__ == "__main__":
-    test_func()
+    run_app()

@@ -6,3 +6,8 @@ MESSAGE_TEXT = (
     "ОПЛАЧИВАЕТСЯ!!! Тариф Кемерово 3500 руб., Новосибирск 4000 руб. Запись по тел."
     "89232635309. 89235514818. 89232696138."
 )
+
+GET_TOKEN_URL = (
+    "https://oauth.vk.com/access_token?client_id={client_id}&client_secret="
+    "{client_secret_key}&redirect_uri={redirect_url}&code={code}"
+)
