@@ -13,7 +13,7 @@ def create_post() -> None:
         "access_token": access_token,
         "owner_id": owner_id,
         "message": message,
-        "v": "5.131"
+        "v": "5.131",
     }
     url = "https://api.vk.com/method/wall.post"
     code = os.getenv("CODE")

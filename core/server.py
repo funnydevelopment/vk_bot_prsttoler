@@ -25,11 +25,10 @@ def get_access_token(code: str) -> str:
         client_id=client_id,
         client_secret_key=client_secret_key,
         redirect_url=redirect_url,
-        code=code
+        code=code,
     )
     response = httpx.get(get_token_url)
     result = response.json()
     print(response.status_code)
     print(result)
     return result["access_token"]
-
