@@ -4,4 +4,4 @@ venv/
 .env
 media/
 data.json
-core/text_messages.py
+core/texts.py
