@@ -3,7 +3,7 @@ import os
 from flask import Flask, request
 import httpx
 
-from core import text_messages as texts
+import text_messages as texts
 
 
 app = Flask(__name__)
