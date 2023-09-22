@@ -2,7 +2,7 @@ import os
 
 import httpx
 
-from core import text_messages as texts
+from core import texts
 
 
 def create_post() -> None:
