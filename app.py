@@ -1,9 +1,10 @@
-from core.config import get_dotenv
+from dotenv import load_dotenv
+
 from core.views import create_post
 
 
 def run_app():
-    get_dotenv()
+    load_dotenv(".env")
     create_post()
 
 
