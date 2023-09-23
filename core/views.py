@@ -3,7 +3,7 @@ import time
 
 import httpx
 
-from core import texts
+import texts
 
 
 def create_post(vk_group_id: int) -> None:
